@@ -7,6 +7,8 @@ categories: Jekyll
 
 ## Getting GitHub Pages to build your Jekyll project
 
+#### Local development
+
 Once you have everything set up locally you can run your project via the following command
 
 ``` bundle exec jekyll serve --safe
@@ -14,6 +16,10 @@ Once you have everything set up locally you can run your project via the followi
 The `--safe` keyword is meant to serve the project under the same conditions as GitHub Pages, therefore we _should_ be able to catch errors locally before pushing to GitHub.
 
 For me, although everything was working locally I kept getting an error from GitHub when pushing to the repo.
+
+#### Turn on GitHub Pages
+
+Navigate to your repository and to the Settings tab. From here you can turn on GitHub pages and select the source. For this project we are telling GitHub to build the Master branch as the GitHub Pages source.
 
 #### GitHub issue
 
