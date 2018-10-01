@@ -1,5 +1,5 @@
 current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/commonmarker-0.17.13/ext/commonmarker
-/usr/bin/ruby2.5 -r ./siteconf20181001-4329-fgc34b.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20181001-14765-1hhc8jy.rb extconf.rb
 creating Makefile
 
 current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/commonmarker-0.17.13/ext/commonmarker
@@ -67,4 +67,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20181001-4329-1ef1miq/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20181001-14765-xsiky7/commonmarker

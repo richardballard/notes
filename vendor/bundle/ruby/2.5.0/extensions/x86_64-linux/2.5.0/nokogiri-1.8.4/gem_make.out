@@ -1,5 +1,5 @@
 current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.8.4/ext/nokogiri
-/usr/bin/ruby2.5 -r ./siteconf20181001-4590-17aeskf.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20181001-14765-yofpos.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.3.0
@@ -191,4 +191,4 @@ rm -rf /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.8.4/ports
 
 current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.8.4/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20181001-4590-vi6de8/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20181001-14765-1warhm1/nokogiri

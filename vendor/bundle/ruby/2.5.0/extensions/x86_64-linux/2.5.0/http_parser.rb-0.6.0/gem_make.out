@@ -1,16 +1,16 @@
-current directory: /mnt/c/projects/vince-devNotes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/bin/ruby2.5 -r ./siteconf20181001-549-9lw9yl.rb extconf.rb
+current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby2.5 -r ./siteconf20181001-14765-1x4hd0l.rb extconf.rb
 creating Makefile
 
-current directory: /mnt/c/projects/vince-devNotes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" clean
 
-current directory: /mnt/c/projects/vince-devNotes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR="
 compiling ruby_http_parser.c
 compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.so
 
-current directory: /mnt/c/projects/vince-devNotes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /mnt/c/projects/notes/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20181001-549-cblby
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20181001-14765-ikd2ek
