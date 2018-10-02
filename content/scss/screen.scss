@@ -2,35 +2,20 @@
 @import "vendor/highlight-theme";
 
 :root {
-  --color-black: hsl(0, 0%, 17%);
-  --color-black--lighten: hsl(0, 0%, 50%);
-  --color-primary: hsl(41, 85%, 52%);
-  --color-primary--lighten: hsl(41, 85%, 85%);
-  --color-white: hsl(0, 0%, 100%);
-  --color-white--darken: hsl(0, 0%, 95%);
-}
-
-[data-theme="theme-default"] {
-  [data-toggle-theme="theme-default"]{
-    display: none;
-  }
-}
-
-[data-theme="theme-dark"] {
-  --color-black: hsl(0, 0%, 100%);
-  --color-white: hsl(0, 0%, 20%);
-  --color-white--darken: hsl(0, 0%, 25%);
-  --color-primary--lighten: hsl(41, 85%, 40%);
-
-  [data-toggle-theme="theme-dark"]{
-    display: none;
-  }
+  --color-black: hsl(0, 0%, 20%);
+  --color-black--lighten:  hsl(0, 0%, 25%);  
+  --color-white:hsl(0, 0%, 100%);
+  --color-white--darken:  hsl(0, 0%, 50%);
+  --color-primary: hsl(7, 64%, 50%);
+  --color-primary--lighten: hsl(7, 87%, 55%);
 }
 
 $black: var(--color-black);
   $black-lighten: var(--color-black--lighten);
+
 $primary: var(--color-primary);
   $primary-lighten: var(--color-primary--lighten);
+
 $white: var(--color-white);
   $white-darken: var(--color-white--darken);
 
@@ -46,10 +31,10 @@ html {
 
 body {
   font-family: Sans-Serif;
-  color: $black;
+  color: $white;
   display: flex;
   justify-content: center;
-  background-color: $white;
+  background-color: $black;
   line-height: 1.5;
 }
 
@@ -98,7 +83,7 @@ blockquote{
 hr {
   border: 0;
   height: 1px;
-  background-color: $black-lighten;
+  background-color: $white-darken;
 }
 
 table {
@@ -113,14 +98,14 @@ table {
   tbody{
     tr {
       &:nth-child(even) {
-        background: $white-darken;
+        background: $black-lighten;
     }
     }
   }
 }
 
 table, th, td {
-  border: 1px solid $black-lighten;
+  border: 1px solid $white-darken;
   border-collapse: collapse;
 }
 
@@ -134,17 +119,17 @@ table, th, td {
 .page-header {
   .site-title {
     font-size: 1.5rem;
-    color: $black;
+    color: $white;
     text-decoration: none;
     font-weight: bold;
   }
 
-  border-bottom: 1px solid $black-lighten;
+  border-bottom: 1px solid $white-darken;
 }
 
 footer {
   text-align: center;
-  border-top: 1px solid $black-lighten;
+  border-top: 1px solid $white-darken;
   margin-top: 2rem;
   .links {
     list-style-type: none;
