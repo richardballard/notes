@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Markdownlint"
-date:   2018-10-02 12:00:00 +0100
-categories: VC Code
+date:   2018-10-02 10:00:00 +0100
+categories: VSCode
 ---
 
 When putting together this Notes site I wanted to keep consistency within the structure of the posts. This led me to I find the great VS Code extension [Markdownlint](https://github.com/DavidAnson/markdownlint) by [David Anson](https://github.com/DavidAnson)
@@ -26,8 +26,6 @@ This extension comes with sensible default linting rules but there are always ti
 | MD002 | Use H2 headings as the first heading (the H1 is generated using the title outside of the MD file) |
 | MD041 | Allow the MD file to start without a heading |
 | line-length |  Allow any line length |
-
-Default Use the default rules as a starting point
 
 For further information on the rules that can be applied see the [Markdownlint rules documentation](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) on GitHub.
 
