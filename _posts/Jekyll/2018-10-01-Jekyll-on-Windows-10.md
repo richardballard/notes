@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Jekyll on Windows 10"
+title:  "Getting started with Jekyll on Windows 10"
 date:   2018-10-01 13:00:00 +0100
 categories: Jekyll
 ---
-
-# Getting started with Jekyll on Windows 10
 
 Make use of the nifty Windows 10 feature that allows Linux to be installed as a Subsystem of Windows. This is actual Linux running on a Windows box.
 
