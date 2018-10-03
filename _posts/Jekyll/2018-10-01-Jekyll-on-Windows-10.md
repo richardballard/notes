@@ -18,4 +18,4 @@ The steps to install Linux on Windows is very straight forward:
 
 More details: [<https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>](Install Linux on Windows 10)
 
-
+Navigate to your project folder `cd /mnt/c/projects/notes` and run `bundle exec jekyll serve --safe` to start Jekyll.

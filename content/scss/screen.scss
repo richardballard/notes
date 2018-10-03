@@ -2,12 +2,12 @@
 @import "vendor/highlight-theme";
 
 :root {
-  --color-black: hsl(0, 0%, 20%);
+  --color-black: #04151d;
   --color-black--lighten:  hsl(0, 0%, 25%);  
   --color-white:hsl(0, 0%, 100%);
   --color-white--darken:  hsl(0, 0%, 50%);
-  --color-primary: hsl(7, 64%, 50%);
-  --color-primary--lighten: hsl(7, 87%, 55%);
+  --color-primary: #e72c33;
+  --color-primary--lighten:#9c262b;
 }
 
 $black: var(--color-black);
