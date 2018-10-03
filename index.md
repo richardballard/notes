@@ -2,13 +2,13 @@
 layout: home
 ---
 
-Notes on development - this is a collection of things I learned around web development.
+Here are a collections of notes on differing development topics. These are primarily for my own reference purposes.
 
 {% assign counter = 0 %}
 {% for post in site.posts %}
   {% assign counter = counter | plus: 1 %}
 {% endfor %}
 
-Currently: <b>{{counter}}</b> notes.
+Total number of notes: <b>{{counter}}</b>
 
 ---
