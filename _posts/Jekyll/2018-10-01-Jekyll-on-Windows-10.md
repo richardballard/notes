@@ -28,8 +28,6 @@ More details: [<https://www.howtogeek.com/249966/how-to-install-and-use-the-linu
 
 Now we have Linux on our Windows machine we need to install the relevant dependencies that Jekyll requires.
 
-TODO: complete steps
-
 `sudo apt-get install ruby ruby-dev build-essential`
 
 `sudo apt-get update`
