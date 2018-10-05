@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting started with Jekyll on Windows 10"
-date:   2018-10-01 13:00:00 +0100
+date:   2018-10-05 09:00:00 +0100
 categories: Jekyll
 ---
 
@@ -26,7 +26,7 @@ More details: [<https://www.howtogeek.com/249966/how-to-install-and-use-the-linu
 
 ## Setting up Jekyll environment on Linux
 
-Now we have Linux on our Windows machine we need to install the relevant dependancies that Jykell requires.
+Now we have Linux on our Windows machine we need to install the relevant dependencies that Jekyll requires.
 
 TODO: complete steps
 
